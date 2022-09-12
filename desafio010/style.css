@@ -12,6 +12,8 @@ body {
     margin: 0%;
     width: 100%;
     height: 100%;
+    justify-content: flex-start;
+    
 
     
 }
@@ -19,6 +21,7 @@ header {
     background-image: linear-gradient( #39CB79, #1A5C38);
     width: 100%;
     height: 100%;
+    justify-content: flex-start;
     text-align: center;
     margin-top: 0px;
     margin-left: 0px;
@@ -64,27 +67,32 @@ h1 {
 h2 {
     color: #1D663D;
     font-family: 'idroid';
-    margin-left: 10px;
+    margin-left: 1px;
     margin-bottom: 5px;
+    padding-left: 10px;
     background-image: linear-gradient(to right, #84e1ace5, white);
     font-weight: normal;
    
 }
 
 p {
-    margin-bottom: 5px;
+    margin: 5px;
     padding: 10px;
 }
 
 p.topo {
     color: white;
+    font-size: 20px;
+    margin-top: 20px;
     text-align: center;
     text-shadow: rgba(0, 0, 0, 0.61) 0.1em 0.1em 0.2em;
 }
 p.topo2 {
     color: white;
+    font-size: 20px;
     text-align: center;
-    margin-top: -10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
     text-shadow: rgba(0, 0, 0, 0.61) 0.1em 0.1em 0.2em;
 }
 nav.topo {
@@ -100,28 +108,35 @@ ul {
 }
 li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 10px;
     text-align: left;
 
 }
 
 main {
     background-color: white;
+    justify-content: flex-start;
     width: 80%;
     margin-top: 0px;
-    margin-right: 100px;
-    margin-left: 130px;
-    
+    margin-left: 10%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0.1em 0.1em 1em rgba(0, 0, 0, 0.493);
+
 }
 
 section div picture {
     display: flex;
     align-items: center;
     justify-content: center;
+   
+   
 
 }
 img {
     max-width: 100%;
+   
+   
 }
 
 div.video {
@@ -141,20 +156,23 @@ div.video > iframe {
     height: 90%;
 
 }
-div.doces {
-    top: 10%;
-    left: 10%;
-    width: 90%;
-    height: 90%;
+div.lista{
     display: flex;
-    
+    width: 100%;
+    text-align: center;
 
 }
+ul.doces {
+    width: 50%;
+    padding-right: 50px;
+}
 
+  
 section.android {
     background-color: #C5EBD6;
     margin: 15px;
     border-radius: 10px;
+    
     
 }
 section.android > h3 {
@@ -170,9 +188,9 @@ footer {
     color: white;
     text-align: center;
     background-color: #1A5C38;
-    margin-top: 1px;
-    padding-right: 1px;
-    padding-bottom: 1px;
+    margin-top: 15px;
+    margin-right: -10px;
+    margin-bottom: -6px;
    
   
 }
