@@ -28,7 +28,6 @@ header {
 @font-face {
     font-family: 'idroid';
     src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
-    
 }
 nav ul a {
     color: white;
